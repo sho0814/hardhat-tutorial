@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "pnpm hardhat test",
-    "deploy:holesky": "pnpm hardhat ignition deploy --network holesky ignition/modules/Counter.ts --verify --reset"
+    "deploy:holesky": "pnpm hardhat ignition deploy --network holesky ignition/modules/Counter.ts --verify --reset",
+    "deploy:myERC20": "pnpm hardhat ignition deploy --network holesky ignition/modules/MyERC20.ts --verify --reset"
   },
   "keywords": [],
   "author": "",
